@@ -1,0 +1,89 @@
+[
+    {
+        "utilizator": "test",
+        "parola": "test"
+    },
+    {
+        "utilizator": "pisliandreuca",
+        "parola": "pisli"
+    },
+    {
+        "utilizator": "stefanahriscu",
+        "parola": "stefy",
+        "nume": "Hriscu",
+        "prenume": "Stefana",
+        "email": "",
+        "telefon": "0755882211",
+        "sex": "Feminin",
+        "culoare": "#8e6c93",
+        "data_nasterii": "2010-02-02",
+        "ora_nasterii": "",
+        "varsta": "19",
+        "pagina_personala": "",
+        "descrire": ""
+    },
+    {
+        "utilizator": "anamariar",
+        "parola": "anamaria",
+        "nume": "Rosca",
+        "prenume": "Ana",
+        "email": "anamariar22@yahoo.com",
+        "telefon": "0744567891",
+        "sex": "Feminin",
+        "gen_preferat": "Horror",
+        "culoare": "#a35e52",
+        "data_nasterii": "2002-09-22",
+        "ora_nasterii": "19:31",
+        "varsta": "24",
+        "pagina_personala": "https://www.wikipedia.org/",
+        "descrire": "Foarte fain"
+    },
+    {
+        "utilizator": "mojo.jojo",
+        "parola": "jojolina",
+        "nume": "Aluculesei",
+        "prenume": "Georgiana",
+        "email": "jojo_alu19@gmail.com",
+        "telefon": "0765957545",
+        "sex": "Feminin",
+        "gen_preferat": "Comedie",
+        "culoare": "#412d71",
+        "data_nasterii": "2011-08-19",
+        "ora_nasterii": "10:02",
+        "varsta": "72",
+        "pagina_personala": "https://www.whatsapp.com/",
+        "descrire": "Tare!"
+    },
+    {
+        "utilizator": "bibilari",
+        "parola": "bibi",
+        "nume": "Barbaliu",
+        "prenume": "Larisa",
+        "email": "bibi_lari11@yahoo.com",
+        "telefon": "0748234567",
+        "sex": "Feminin",
+        "gen_preferat": "SF",
+        "culoare": "#6c3232",
+        "data_nasterii": "2009-02-10",
+        "ora_nasterii": "08:10",
+        "varsta": "71",
+        "pagina_personala": "https://www.instagram.com/",
+        "descrire": "Chiar as dori sa ma inscriu!"
+    },
+    {
+        "utilizator": "aa",
+        "parola": "aaa",
+        "nume": "Tibi",
+        "prenume": "Tibi",
+        "email": "",
+        "telefon": "",
+        "sex": "Masculin",
+        "gen_preferat": "Mister",
+        "culoare": "#ab3f3f",
+        "data_nasterii": "2021-03-10",
+        "ora_nasterii": "",
+        "varsta": "25",
+        "pagina_personala": "",
+        "descrire": ""
+    }
+]

@@ -1,0 +1,237 @@
+.body {
+    background-color: #8594b7;
+    background-size: cover;
+    /*background-image: url("D:\AN3 SEM2\PW\proiect-1-StefanaHriscu\continut\imagini\fundal5.jpg");*/
+}
+
+.poza{
+  /*float:left;*/
+  flex-basis: 100%;
+  height: 250px;
+  width: 800px; 
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.box{
+  /*border-style: solid;*/
+  box-shadow: 0 3px 30px rgb(0 0 0 / 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 3%;
+}
+
+.container_rezumat{
+  background-color: #637faf;
+  /*justify-content: left;
+  width: 100%;*/
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /*text-align: left;
+  float:right;
+  font-size: 20px;*/
+  padding-left: 10px;
+  color:white;
+}
+
+.tabel,th,td {
+    border-collapse: collapse;
+    /*border-style: solid;*/
+    border-color: #6f64b6;
+    border-width: 3px;
+    /*align-self: center;
+    text-align: center;*/
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 60%;
+    margin-right: 10%;
+
+}
+th{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #385288;
+  color: white;
+}
+tr:hover {
+  background-color: #385288;
+}
+nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: #637faf;
+    width: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 14px;
+}
+
+a:hover {
+    background: #385288;
+    border-radius: 35px;
+    cursor : pointer;
+}
+
+.text_sus {
+  text-align: center;
+}
+
+.main2 {
+  margin-left: 3%;
+}
+header {
+    text-align:left;
+    font-size: 20px;
+    color: black;
+}
+.una_langa_alta{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: left;
+}
+.una_langa_alta img{
+  display: flex;
+  flex: 1;
+  /*float: right;*/
+}
+/*Pentru videoclipuri*/
+section{
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  flex: 1;
+  width: auto;
+  text-align: left;
+  padding: 10px;
+}
+
+/*Secțiunea 1*/
+.container1 {
+  font-size: 20px;
+  width:21%;
+  background-color:  #637faf;
+  box-shadow: 0 3px 30px rgb(0 0 0 / 0.2);
+  margin:10px;
+  display:inline-block;
+  align-items: center;
+  justify-content: center;
+ }
+
+ #data {
+  font-size: 25px;
+  color:#385288;
+ }
+
+ #URL {
+  font-size: 15px;
+  color:#385288;
+ }
+
+ #fereastra {
+  font-size: 30px;
+  color:#385288;
+}
+
+#ora {
+  font-size: 25px;
+  color:#385288;
+}
+
+.sectiunea1 {
+  width:100%;
+  margin-top:40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  text-align:center;
+}
+
+#canva1 {
+  width:70%;
+  height:200px;
+  border:1px solid #000000;
+  background-color: white;
+}
+
+/*Secțiunea 2*/
+.sectiunea2 {
+  width:100%;
+  margin-top:60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  text-align:center;
+}
+#contur{
+  width: 20%;
+}
+
+#umplere{
+  width:20%
+}
+
+/*Secțiunea 3*/
+.sectiunea3 {
+  width:100%;
+  margin-top:100px;
+  margin-left: 200px;
+  margin-right: auto;
+  text-align:center;
+}
+/*
+main{
+    display: flex;
+    justify-content:left;
+  }
+*/
+.titlu_rezumat{
+    text-align: left;
+    font-size: 40px;
+    color: black;
+}
+
+.p{
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    background-color: #637faf;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+/*
+button {
+    background-color: #58886d;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    height:100%;
+  }
+
+  button:hover {
+    background: #7458b2;
+    border-radius: 25px;
+  }
+  */

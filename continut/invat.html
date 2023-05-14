@@ -1,0 +1,86 @@
+<h1 class="text_sus">Astăzi vom învăța ceva nou!</h1>
+<aside style="height: auto; margin-top: 0px; margin-bottom: 10px;">
+    <article style="text-align: center; margin-top: 0px; height: 200 px;">
+        <a style="background: #8594b7;" href="#Section1">
+            <h1>Vrei să știi cât este ora, locația ta sau pe ce browser te afli?</h1>
+        </a>
+    </article>
+
+    <article style="text-align: center;">
+        <a style="background: #8594b7;" href="#Section2">
+            <h1>Pentru a nu te plictisi pe timpul reclamelor, poți desena aici!</h1>
+        </a>
+    </article>
+
+    <article style="text-align: center;">
+        <a style="background: #8594b7;" href="#Section3">
+            <h1>Aici poți testa funcționalitatea unui tabel dinamic!</h1>
+        </a>
+    </article>
+
+</aside>
+
+<hr />
+
+<!-- Prima secțiune -->
+<section id="Section1">
+    <div class="sectiunea1">
+        <div class="container1">Astăzi este: <p id="timpCurent"></p>
+        </div>
+        <div class="container1">Link-ul paginii curente este: <p id="adresaURL"></p>
+        </div>
+        <div class="container1">Locația curentă de pe care se accesează pagina este: <p id="locatiaCurenta"></p>
+        </div>
+        <div class="container1">Browser-ul și sistemul de operare de pe care se accesează pagina este: <p id="browser">
+            </p>
+        </div>
+    </div>
+</section>
+
+<hr />
+
+<!-- A doua secțiune -->
+<section id="Section2">
+    <div class="sectiunea2">
+        <canvas id="canva1">
+        </canvas>
+        <div>
+            <label>Selectează culoarea pentru contur:</label>
+            <input type="color" id="contur" name="favcolor" value="#385288">
+        </div>
+        <div>
+            <label>Selecteaza culoarea pentru umplere:</label>
+            <input type="color" id="umplere" name="favcolor" value="#637faf">
+        </div>
+        <button onclick="deseneaza()">Culoare</button>
+    </div>
+</section>
+
+<hr />
+
+<!-- A treia secțiune -->
+<section id="Section3">
+    <div class="sectiunea3">
+        <table id="tabelInvat" style="width: 900px; margin-left: 100px;">
+            <tr>
+                <td>Nr.</td>
+                <td>Denumire</td>
+                <td>Notă</td>
+            </tr>
+        </table>
+
+        <br />
+
+        <label style="color: #0d1d3d; font-weight: bold;">Linia/Coloana (la care vrei să introduci):</label>
+        <input type="text" id="liniaColoana" value="0" style="margin-left: 10px"><br />
+        <label style="color: #0d1d3d; font-weight: bold;">Selectează culoarea pentru linie:</label>
+        <input type="color" id="linie" value="#385288" style="margin-left: 64px; width: 169px;"><br />
+        <label style="color: #0d1d3d; font-weight: bold;">Selectează culoarea pentru coloană:</label>
+        <input type="color" id="coloana" value="#ffffff" style="margin-left: 42px; width: 169px;"><br />
+        <br />
+        <button type="button" id="butonLinie" onclick="ButonLinie()">Inserează linia!</button>
+        <button type="button" id="butonColoana" onclick="ButonColoana()" style="margin-left: 20px">Inserează
+            coloana!</button><br />
+
+    </div>
+</section>

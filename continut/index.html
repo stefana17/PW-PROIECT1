@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Acasă</title>
+    <link rel="stylesheet" href="css/stil.css"/>
+    <script src="js/script.js"></script>
+    <link rel="icon" type="image/x-icon" href= "favicon.ico"/>
+</head>
+
+<body class="body" onload="schimbaContinut('acasa')">
+    <header>
+        <!-- butoane navigare printre pagini -->
+        <nav>
+            <a onclick="schimbaContinut('acasa')">Acasă</a>
+            <a onclick="schimbaContinut('despre')">Despre</a>
+            <a onclick="schimbaContinut('inregistreaza')">Înregistrează</a>
+            <a onclick="schimbaContinut('video')">Video</a>
+            <a onclick="schimbaContinut('desen')">Genuri</a>
+            <a onclick="schimbaContinut('invat')">Învață</a>
+            <a onclick="schimbaContinut('persoane', 'js/persoane.js', 'incarcaPersoane')">Persoane</a>
+            <a onclick="schimbaContinut('verifica')">Verifică</a>
+            <a onclick="schimbaContinut('cumparaturi')">Cumpărături</a>
+        </nav>
+    </header>
+    
+    <main id="continut">
+
+    </main>
+    <footer>&copy;2023 Filme</footer>
+</body>
+
+</html>

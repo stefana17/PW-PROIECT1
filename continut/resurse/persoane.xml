@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persoane SYSTEM "persoane.dtd">
+<persoane>
+    <persoana id="1">
+        <nume>Hriscu</nume>
+        <prenume>Stefana</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Crinului</strada>
+            <numar>17</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <CV>
+            <numartelefon>0745253610</numartelefon>
+            <email>hriscustefa17@yahoo.com</email>
+        </CV>
+    </persoana>
+    <persoana id="2">
+        <nume>Rosca</nume>
+        <prenume>Ana</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>Vasile Lupu</strada>
+            <numar>15</numar>
+            <localitate>Barlad</localitate>
+            <judet>Vaslui</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <CV>
+            <numartelefon>0746353620</numartelefon>
+            <email>anarosca22@yahoo.com</email>
+        </CV>
+    </persoana>
+    <persoana id="3">
+        <nume>Husman</nume>
+        <prenume>Carla</prenume>
+        <varsta>20</varsta>
+        <adresa>
+            <strada>Mihai Eminescu</strada>
+            <numar>20</numar>
+            <localitate>Husi</localitate>
+            <judet>Vaslui</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <CV>
+            <numartelefon>0755253630</numartelefon>
+            <email>husmancarla26@gmail.com</email>
+        </CV>
+    </persoana>
+    <persoana id="4">
+        <nume>Pislariu</nume>
+        <prenume>Andreea</prenume>
+        <varsta>20</varsta>
+        <adresa>
+            <strada>Ion Creanga</strada>
+            <numar>55</numar>
+            <localitate>Pascani</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <CV>
+            <numartelefon>0754262755</numartelefon>
+            <email>pisliandreea30@yahoo.com</email>
+        </CV>
+    </persoana>
+    <persoana id="5">
+        <nume>Ganea</nume>
+        <prenume>Luiza</prenume>
+        <varsta>22</varsta>
+        <adresa>
+            <strada>Crizantemei</strada>
+            <numar>25</numar>
+            <localitate>Pascani</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <CV>
+            <numartelefon>0746374650</numartelefon>
+            <email>gluizzza23@yahoo.com</email>
+        </CV>
+    </persoana>
+    <persoana id="6">
+        <nume>Barbaliu</nume>
+        <prenume>Bianca</prenume>
+        <varsta>24</varsta>
+        <adresa>
+            <strada>Stefan cel Mare</strada>
+            <numar>85</numar>
+            <localitate>Galati</localitate>
+            <judet>Galati</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <CV>
+            <numartelefon>0745254755</numartelefon>
+            <email>barbaliubibi19@gmail.com</email>
+        </CV>
+    </persoana>
+    <persoana id="7">
+        <nume>Aluculesei</nume>
+        <prenume>Georgiana</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>Vantului</strada>
+            <numar>24</numar>
+            <localitate>Podu Iloaiei</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <CV>
+            <numartelefon>0745264990</numartelefon>
+            <email>alugeorgiana19@yahoo.com</email>
+        </CV>
+    </persoana>
+</persoane>

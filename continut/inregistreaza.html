@@ -1,0 +1,56 @@
+<h1 class="text_sus">Înregistrează-te aici</h1>
+<h3 class="text_sus">În viitorul cel mai apropiat vom deschide o nouă platformă de streaming gratuită</h3>
+<h2 class="text_sus">Dacă doriți să vă înscrieți puteți completa următorul formular</h2>
+
+<!--formular-->
+<div class="una_langa_alta">
+    <form id="inregistrare" method="post">
+        <fieldset style="width:400px">
+            <legend>
+                <h3>Informarții generale:</h3>
+            </legend>
+            <label>Nume utilizator: </label><input type="text" id="utilizator" placeholder="Creează-ți un nume">
+            <br /><br /><label>Parola: </label><input type="text" id="parola" placeholder="Introdu o parolă puternică">
+            <br /><br /><label>Nume: </label><input type="text" id="nume" placeholder="Numele tău de familie">
+            <br /><br /><label>Prenume: </label><input type="text" id="prenume" placeholder="Prenumele tău">
+            <br /><br /><label>Email: </label><input type="email" id="email" placeholder="Email">
+            <br /><br /><label>Telefon: </label><input type="tel" id="telefon" placeholder="Telefon">
+        </fieldset>
+
+        <fieldset style="width:400px">
+            <legend>
+                <h3>Informații personale:</h3>
+            </legend>
+            <label>Sexul: </label>
+            <select id="sex">
+                <option value="Masculin">Masculin</option>
+                <option value="Feminin">Feminin</option>
+                <option value="Altceva">Altceva</option>
+            </select>
+
+            <br>
+
+            <label for="gen_preferat">Gen preferat: </label>
+            <input list="Gen-bun" id="gen_preferat" name="Gen preferat">
+            <datalist id="Gen-bun">
+                <option value="Romantic">Romantic</option>
+                <option value="Mister">Mister</option>
+                <option value="Comedie">Comedie</option>
+                <option value="SF">SF</option>
+                <option value="Horror">Horror</option>
+            </datalist>
+            <br /><br /><label>Culoarea posterului preferat: </label><input type="color" id="culoare">
+            <br /><br /><label>Data nașterii: </label><input type="date" id="data_nasterii">
+            <br /><br /><label>Ora nașterii: </label><input type="time" id="ora_nasterii">
+            <br /><br /><label>Vârsta: </label><input type="range" id="varsta">
+            <br /><br /><label>Adresa paginii personale: </label><input type="url" id="pagina_personala">
+            <br /><br /><label>Descriere: </label><textarea id="descriere" rows="5" cols="30"
+                name="description"></textarea>
+
+            <br /><br /><input type="checkbox" id="acord" required><label>Sunt de acord cu termenii și condițiile.</label>
+            <br /><br /><input type="submit" id="submit" value="Înregistrează" disabled>
+        </fieldset>
+    </form>
+
+    <img style="padding-left: 20px; width : 400px; height: 820px"  src="imagini/moviescollage.png" alt="Colaj Filme" />
+</div>

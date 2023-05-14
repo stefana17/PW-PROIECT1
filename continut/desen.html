@@ -1,0 +1,135 @@
+<h1 style="color:rgb(14, 13, 13)">Genuri filme</h1>
+<svg width="1400" height="485">
+    <!-- gradientul1 orizontal pentru elipsa din mijloc -->
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#5e6894;stop-opacity:0" />
+            <stop offset="100%" style="stop-color:#173e70;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- gradientul2 vertical pentru dungile popcorn-ului -->
+    <defs>
+        <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(50, 5, 5);stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- elipsa din mijloc -->
+    <ellipse cx="750" cy="200" rx="200" ry="50" fill="url(#grad1)" />
+    <text x="630" y="200" fill="#FFFFFF" style="font-family:Lucida Console; font-size: 20px">
+        <a href="https://topfilmeonline.ro/mister/" target="_blank">Alege filmul preferat</a></text>
+
+    <!-- butonul de play -->
+    <circle cx="200" cy="70" r="55" fill="white" stroke="black" stroke-width="3"></circle>
+    <polygon points="185,40 185,100 230,70" fill="white" stroke="black" stroke-width="3" />
+    <!-- tranziția1: se mută textul după un anumit traseu/rotație -->
+    <g translate="translate(187,75)">
+        <text id="textPlay" x="0" y="0" fill="black"
+            style="font-family:Lucida Console; font-size: 14px; visibility:hidden">
+            <a href="https://topfilmeonline.ro/dragoste/ " target="_blank">Play</a>
+            <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+            <animateMotion path="M 0 0 L 187 75" begin="1s" dur="5s" fill="freeze" />
+            <animate attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s"
+                fill="freeze" />
+            <animate attributeName="transform" attributeType="XML" type="scale" from="0" to="1" additive="sum"
+                begin="1s" dur="5s" fill="freeze" />
+        </text>
+    </g>
+
+    <!-- butonul  de stop -->
+    <circle cx="1226" cy="427" r="55" fill="black" stroke="black" stroke-width="3"></circle>
+    <rect x="1200" y="402" rx="10" ry="10" width="50" height="50" fill="white" stroke="black" stroke-width="3">
+        <!-- tranziția2: pătrat care dispare dupa 5 secunde -->
+        <animate attributeType="CSS" attributeName="opacity" from="1" to="0" dur="5s" repeatCount="indefinite" />
+    </rect>
+    <text x="1206" y="432" fill="black" style="font-family:Lucida Console; font-size: 17px">
+        <a href="https://topfilmeonline.ro/comedie/" target="_blank">Stop</a></text>
+
+    <!-- tentativa de a desena ticket-ul 
+                însă am nevoie de poligon pentru a umple forma nu de linie -->
+    <!--
+                <line x1="100" y1="400" x2="350" y2="400" style="stroke:black;stroke-width:3" />
+                <polyline points="350,400 330,410 350,420 330,430 350,440 330,450 350,460 330,470 350,480" 
+                    style="fill:none;stroke:black;stroke-width:3" />
+                <line x1="350" y1="480" x2="100" y2="480" 
+                    style="stroke:black;stroke-width:3" />
+                <polyline points="100,480 120,470 100,460 120,450 100,440 120,430 100,420 120,410 100,400" 
+                    style="fill:none;stroke:black;stroke-width:3" />
+                -->
+
+    <!-- ticket-ul de film -->
+    <g transform="rotate(-15, 100,400)">
+        <polygon points="100,400 350,400 330,410 350,420 330,430 350,440 330,450
+                     350,460 330,470 350,480 100,480 120,470 100,460 120,450 100,440 120,430 
+                     100,420 120,410 100,400" fill="black" stroke="black" stroke-width="3" />
+        <polygon points="140,415 310,415 310,465 140,465 " fill="white" stroke="#FFA500" stroke-width="3">
+            <!-- tranziția2: dreptunghi care apare dupa 5 secunde -->
+            <animate attributeType="CSS" attributeName="opacity" from="0" to="1" dur="5s" repeatCount="indefinite" />
+        </polygon>
+        <text x="190" y="445" fill="#E57924" style="font-family:Lucida Console; font-size: 20px"><a
+                href="https://topfilmeonline.ro/sf-fantasy/" target="_blank">TICKET</a></text>
+    </g>
+
+    <!-- popcorn-ul în sine -->
+    <g transform="rotate(20, 1200,40)">
+        <!-- al doliea strat, cel din spate -->
+        <circle cx="1220" cy="32" r="10" fill="#F8ED6D"></circle>
+        <circle cx="1250" cy="30" r="10" fill="#E1D545"></circle>
+        <circle cx="1260" cy="32" r="10" fill="#F8ED6D"></circle>
+        <circle cx="1275" cy="32" r="10" fill="#F2E435"></circle>
+        <circle cx="1280" cy="30" r="10" fill="#F8ED6D"></circle>
+        <circle cx="1235" cy="30" r="10" fill="#F2E435"></circle>
+        <circle cx="1295" cy="30" r="10" fill="#F8ED6D"></circle>
+        <circle cx="1305" cy="32" r="10" fill="#F2E435"></circle>
+        <circle cx="1315" cy="30" r="10" fill="#F8ED6D"></circle>
+        <circle cx="1320" cy="32" r="10" fill="#F2E435"></circle>
+        <circle cx="1334" cy="34" r="10" fill="#F8ED6D"></circle>
+        <circle cx="1265" cy="25" r="10" fill="#F2E435"></circle>
+        <circle cx="1295" cy="25" r="10" fill="#F2E435"></circle>
+        <circle cx="1280" cy="25" r="10" fill="#F8ED6D"></circle>
+        <circle cx="1255" cy="27" r="10" fill="#F8ED6D"></circle>
+        <circle cx="1305" cy="27" r="10" fill="#F8ED6D"></circle>
+        <circle cx="1243" cy="27" r="10" fill="#F8ED6D"></circle>
+
+        <!-- primul strat, cel din față -->
+        <circle cx="1210" cy="40" r="10" fill="yellow"></circle>
+        <circle cx="1220" cy="40" r="10" fill="#F2E435"></circle>
+        <circle cx="1225" cy="40" r="10" fill="#F8ED6D"></circle>
+        <circle cx="1235" cy="40" r="10" fill="yellow"></circle>
+        <circle cx="1247" cy="40" r="10" fill="yellow"></circle>
+        <circle cx="1258" cy="40" r="10" fill="#F2E435"></circle>
+        <circle cx="1270" cy="40" r="10" fill="yellow"></circle>
+        <circle cx="1280" cy="40" r="10" fill="#F8ED6D"></circle>
+        <circle cx="1285" cy="40" r="10" fill="yellow"></circle>
+        <circle cx="1292" cy="40" r="10" fill="#F2E435"></circle>
+        <circle cx="1303" cy="40" r="10" fill="#F8ED6D"></circle>
+        <circle cx="1312" cy="40" r="10" fill="yellow"></circle>
+        <circle cx="1325" cy="40" r="10" fill="#F8ED6D"></circle>
+        <circle cx="1335" cy="40" r="10" fill="#F2E435"></circle>
+        <circle cx="1341" cy="40" r="10" fill="#F8ED6D"></circle>
+
+        <!-- al treilea strat, câteva puse între primul și cel de al doilea strat -->
+        <circle cx="1245" cy="32" r="10" fill="#F2E435"></circle>
+        <circle cx="1265" cy="33" r="10" fill="#F2E435"></circle>
+        <circle cx="1280" cy="30" r="10" fill="#F8ED6D"></circle>
+        <circle cx="1290" cy="33" r="10" fill="#F8ED6D"></circle>
+
+        <!-- cutia popcorn-ului + dungi + eticheta -->
+        <polygon points="1200,40 1350,40 1320,180 1230,180" fill="white" stroke="black" stroke-width="2">
+        </polygon>
+
+        <polygon points="1207,41 1215,41 1215,105 1207,68" fill="url(#grad2)"></polygon>
+        <polygon points="1230,41 1240,41 1240,179 1230,179" fill="url(#grad2)"></polygon>
+        <polygon points="1255,41 1265,41 1265,179 1255,179" fill="url(#grad2)"></polygon>
+        <polygon points="1280,41 1290,41 1290,179 1280,179" fill="url(#grad2)"></polygon>
+        <polygon points="1320,41 1310,41 1310,179 1320,179" fill="url(#grad2)"></polygon>
+        <polygon points="1330,41 1338,41 1338,95 1330,130" fill="url(#grad2)"></polygon>
+
+        <rect x="1230" y="85" width="90" height="40" fill="white" stroke="black" stroke-width="1"></rect>
+        <text x="1242" y="110" fill="black" style="font-family:Lucida Console"><a
+                href="https://topfilmeonline.ro/horror/" target="_blank">Popcorn</a></text>
+    </g>
+
+</svg>
